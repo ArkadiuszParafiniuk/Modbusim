@@ -1,5 +1,6 @@
 package main;
 
+import gui.GUI;
 import org.apache.log4j.Logger;
 
 /**
@@ -12,8 +13,7 @@ public class Application {
 
     public static void main(String[] args) {
         logger.info("Application started");
-
-
+        GUI.main();
         logger.info("Application stopped");
     }
 }
