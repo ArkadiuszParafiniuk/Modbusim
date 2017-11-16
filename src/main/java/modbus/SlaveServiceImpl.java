@@ -33,7 +33,6 @@ public class SlaveServiceImpl implements SlaveService {
 
     public void stopServer(ModbusServer server){
         server.StopListening();
-        server.stop();
         logger.info("Modbus server stopped");
     }
 
