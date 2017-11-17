@@ -13,7 +13,7 @@ public class Application {
 
     public static void main(String[] args) {
         logger.info("Application started");
-        GUI.main();
+        GUI.main(args);
         logger.info("Application stopped");
     }
 }
